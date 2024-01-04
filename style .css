@@ -51,8 +51,8 @@ text-align: right;
     
 }
 .logo p{
-    padding-top: 11px;
-    font-size: 30px;
+    padding-top: 7px;
+    font-size: 35px;
     font-family:'Courier New', Courier, monospace;
     font-weight: 800;
     color:brown;
@@ -73,18 +73,120 @@ text-align: right;
     width: fit-content;
     margin-left: 160px;
     box-sizing: content-box;
-    
-    
-   
-    
+
 }
 
 #head2{
     text-align: left;
     font-size: 60px;
     text-shadow: 3px 3px 7px rgb(223, 223, 131);
-    margin-left: 60px;
+    margin-left: 90px;
     font-size: 40px;
     color: rgb(100, 34, 34);
 
+}
+
+.main-body{
+    background-color: white;
+    height: 100%;
+    margin: 0px 230px;
+    background-color: rgb(241, 237, 231);
+}
+
+#caw-facts{
+    padding-top: 50px;
+    color: blue;
+    font-size: 40px;
+    margin-left: 20px;
+}
+
+.main-body img{
+    height: 300px;
+   float: right;
+   margin-right: 30px;
+   margin-bottom: 100%;
+   margin-left: 30px;
+   
+}
+
+.main-body h2{
+    padding-top: 30px;
+    color: black;
+    font-size: 35px ;
+    margin-left: 20px;
+}
+
+#first-p{
+    padding-top: 15px;
+    font-size: 18px;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+#second-p{
+    padding-top: 30px;
+    font-size: 18px;
+    text-align: justify;
+    font-size: 30px;
+    color: rgb(240, 91, 5);
+    margin-left: 20px;
+}
+
+.list-info{
+    padding-top: 30px;
+    text-align: justify;
+    font-size: 18px;
+    color: rgb(34, 39, 37);
+    margin-left: 60px;
+}
+
+.list-in{
+    margin-left: 40px;
+}
+
+.list-info a{
+    color: rgb(34, 39, 37);
+}
+
+#cow-expert{
+    color: #ea6c11;
+    font-size: 40px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+#third-p{
+    padding-top: 20px;
+    font-weight: 800;
+    margin-left: 20px;
+}
+
+.quiz-container{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.quiz-button {
+    padding: 15px 30px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #ea6c11;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.quiz-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    
+}
+
+.quiz-button:hover{
+    background-color: #2980b9;
 }
