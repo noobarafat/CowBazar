@@ -104,7 +104,7 @@ text-align: right;
     height: 300px;
    float: right;
    margin-right: 30px;
-   margin-bottom: 100%;
+   margin-bottom: 1000px;
    margin-left: 30px;
    
 }
@@ -189,4 +189,21 @@ text-align: right;
 
 .quiz-button:hover{
     background-color: #2980b9;
+}
+
+.Contact-section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: space-around;
+    margin-top: 20px;
+    background-color: rgb(221, 206, 206);
+ 
+}
+
+.sub-contact{
+    width: 25%;
+    padding-left: 110px;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
