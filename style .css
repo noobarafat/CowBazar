@@ -7,12 +7,12 @@
 
 nav{
     padding: 10px;
-    background-color: rgb(223, 210, 190);
+    background-color: rgb(192, 172, 142);
     height: 50px;
     color: black;
     display: flex;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .navbar{
@@ -37,10 +37,25 @@ text-align: right;
 #protect{
     text-align: left;
     margin: 0;
-    padding-right: 600px;
+    padding-right: 40px;
     font-size: 23px;
     font-weight: 600;
+    color: blue;
     
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 40px;
+    
+}
+.logo p{
+    padding-top: 11px;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 800;
+    color:brown;
 }
 
 .heading{
